@@ -1,0 +1,14 @@
+# iOS / Xcode
+frontend-ios/DerivedData/
+frontend-ios/*.xcworkspace
+frontend-ios/xcuserdata/
+frontend-ios/Pods/
+frontend-ios/*.xcuserstate
+
+# Firebase
+backend-firebase/functions/node_modules/
+
+# System
+.DS_Store
+.env
+*.log
