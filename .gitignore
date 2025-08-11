@@ -8,6 +8,14 @@ frontend-ios/*.xcuserstate
 # Firebase
 backend-firebase/functions/node_modules/
 
+# Python
+venv/
+venv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
 # System
 .DS_Store
 .env

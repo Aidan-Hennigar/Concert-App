@@ -1,0 +1,13 @@
+# Always use python3 instead of python
+- When writing Python scripts, commands, or documentation, always use `python3` instead of `python`
+- This ensures compatibility across different systems where `python` might point to Python 2
+- Examples: `python3 script.py`, `python3 -m pip install package`, `python3 -c "print('hello')"`
+
+# Always use docker compose instead of docker-compose
+- When working with Docker Compose, always use `docker compose` (with a space) instead of `docker-compose` (with a hyphen)
+- The hyphenated version is deprecated and the space-separated version is the current standard
+- Examples: `docker compose up`, `docker compose down`, `docker compose build`, `docker compose ps`
+description: Use python3 instead of python
+globs:
+alwaysApply: true
+---
